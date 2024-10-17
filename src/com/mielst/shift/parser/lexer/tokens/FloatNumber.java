@@ -13,6 +13,6 @@ public class FloatNumber extends Token {
 
     @Override
     public String toString() {
-        return ("token " + this.type + ": " + this.value + " on " + this.line + ":" + this.col);
+        return ("Number: " + this.value + " on " + this.line + ":" + this.col);
     }
 }
