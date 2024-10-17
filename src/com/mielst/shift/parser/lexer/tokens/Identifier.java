@@ -13,6 +13,6 @@ public class Identifier extends Token {
 
     @Override
     public String toString() {
-        return ("token " + this.type + ": " + this.value + " on " + this.line + ":" + this.col);
+        return ("Identifier: " + this.value + " on " + this.line + ":" + this.col);
     }
 }
