@@ -13,6 +13,6 @@ public class Literal extends Token {
 
     @Override
     public String toString() {
-        return ("token " + this.type + ": " + this.value + " on " + this.line + ":" + this.col);
+        return ("Literal: " + this.value + " on " + this.line + ":" + this.col);
     }
 }
